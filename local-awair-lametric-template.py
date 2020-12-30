@@ -10,17 +10,17 @@ requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 # options: local || remote
 environment = 'local'
 # options: c || f
-temp_unit = 'c'
+temp_unit = 'f'
 
 # replace "123.456.78.9" with your Awair device IP address
-awair_url = 'http://123.456.78.9/air-data/latest'
+awair_url = 'http://192.168.1.238/air-data/latest'
 # get your LaMetric Time api_key here -> https://developer.lametric.com/user/devices
-lametric_access_token = 'your_api_key_here'
+lametric_access_token = '7d322ff761e0294099acb53b673ddcad1c359378bc49b3ddcce2ded52847c5b7'
 # lametric_basic_auth = 'placeholder'
 
 remote_lametric_base_url = 'https://developer.lametric.com/api/v1/dev/widget/update/'
 # replace "9.87.654.321" with your LaMetric Time device IP address
-local_lametric_base_url = 'https://9.87.654.321:4343/api/v1/devices/widget/update/'
+local_lametric_base_url = 'https://192.168.1.158:4343/api/v1/devices/widget/update/'
 # update this if you clone the LaMetric Time app
 lametric_app_id = 'com.lametric.941c51dff3135bd87aa72db9d855dd50/'
 # latest version at the time of publishing
